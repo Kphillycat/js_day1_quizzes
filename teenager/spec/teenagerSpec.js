@@ -1,4 +1,4 @@
-describe( "#is_between", function() {
+describe( "#isTeenager", function() {
   it("returns false if the person is younger than 13", function() {
     expect(isTeenager(12)).toBe(false);
   });      
